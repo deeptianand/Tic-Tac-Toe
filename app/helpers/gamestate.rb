@@ -1,8 +1,5 @@
 module GameState
 
-  s = "1,0,0,0,1,0,0,0,1"
-  a = s.split(",")
-
   def winner?(a,b,c)
     a == b && b == c ? a : false
   end
